@@ -31,7 +31,8 @@ def strip_tags(html):
 shutil.rmtree('_posts', ignore_errors=True)
 os.mkdir('_posts')
 
-nouns = ["projects","prizes","publications","clippings"]
+nouns = ["projects","prizes","publications"]
+#nouns = ["clippings"]
 for noun in nouns:
     rss_base_url = "https://researchers.mq.edu.au/en/organisations/faculty-of-arts/{}/?ordering=publicationYearThenTitle&descending=true&format=rss&page={}"
 
@@ -43,7 +44,7 @@ for noun in nouns:
         feed = feedparser.parse( rss_base_url.format(noun,page) )
         items = feed["items"]
         for item in items:
-            #pprint.pprint(item)
+            pprint.pprint(item)
             time = dateparser.parse(item[ "published" ], settings={'TIMEZONE': '+0000'})
             print(page, noun, time, feedintime.count(False))
             if time > datetime.datetime.now(tz=datetime.timezone.utc):
