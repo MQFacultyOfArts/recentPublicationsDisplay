@@ -16,7 +16,7 @@ tags:
 </iframe>
 </div>
 
-<script type="text/javascript" src="/js/qr/qrcode.js"></script>
+<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/projects/maohi-voyagers-to-france-and-australia-1760s-1860s");
 </script>

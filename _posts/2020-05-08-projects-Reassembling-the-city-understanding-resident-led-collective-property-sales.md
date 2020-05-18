@@ -16,7 +16,7 @@ tags:
 </iframe>
 </div>
 
-<script type="text/javascript" src="/js/qr/qrcode.js"></script>
+<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/projects/reassembling-the-city-understanding-resident-led-collective-prope");
 </script>

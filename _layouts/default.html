@@ -23,12 +23,12 @@
 	<script>
 {% if page.previous.url %}		
 setTimeout(function() {
-  window.location.href = "{{page.previous.url}}"
+  window.location.href = "{{site.baseurl}}{{page.previous.url}}"
 }, 20000);
 {% else %}
 {% assign post = site.posts.first %}
 setTimeout(function() {
-  window.location.href = "{{post.url}}"
+  window.location.href = "{{site.baseurl}}{{post.url}}"
 }, 20000);
 
 {%endif%}    

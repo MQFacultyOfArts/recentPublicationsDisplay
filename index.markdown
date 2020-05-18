@@ -25,7 +25,7 @@
 	<script>
     {% for post in site.posts limit:1 %}
 setTimeout(function() {
-  window.location.href = "{{post.url}}"
+  window.location.href = "{{site.baseurl}}{{post.url}}"
 }, 300);
     
     {% endfor %}
@@ -33,7 +33,7 @@ setTimeout(function() {
   </head>
   <body style="margin:0">
 {% for post in site.posts limit:1 %}
-{{post.url}}
+{{site.baseurl}}{{post.url}}
 {% endfor %}
   </body>
 </html>
