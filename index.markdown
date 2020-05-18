@@ -1,32 +1,21 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+layout: default
+title: index
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Index</title>
-</head>
-<body>
 
 
 <script>
-    {% for post in site.posts limit:1 %}
+
+{% for post in site.posts limit:1 %}
 setTimeout(function() {
-  window.location.href = "{{post.url | absolute_url}}"
+  window.location.href = "{{site.url}}{{post.url}}"
 }, 300);
-    
-    {% endfor %}
+{% endfor %}
+
 </script>
   
 {% for post in site.posts limit:1 %}
-{{post.url | absolute_url}}
+{{site.url}}{{post.url}}
 {% endfor %}
  
 
-
-
-</body>
-</html>
