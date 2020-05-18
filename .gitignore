@@ -1,3 +1,5 @@
+.direnv
+
 _site
 .sass-cache
 .jekyll-cache
