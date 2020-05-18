@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Want an economic tonic, Mr Morrison? Use that stimulus money to turbocharge renewables
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/want-an-economic-tonic-mr-morrison-use-that-stimulus-money-to-tur"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/want-an-economic-tonic-mr-morrison-use-that-stimulus-money-to-tur">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/want-an-economic-tonic-mr-morrison-use-that-stimulus-money-to-tur");
-</script>
         

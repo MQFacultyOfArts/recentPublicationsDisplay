@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   'With this ring, I thee and (your proxy) wed': a new form of marriage in the time of coronavirus?
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/clippings/with-this-ring-i-thee-and-your-proxy-wed-a-new-form-of-marriage-i"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/clippings/with-this-ring-i-thee-and-your-proxy-wed-a-new-form-of-marriage-i">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/clippings/with-this-ring-i-thee-and-your-proxy-wed-a-new-form-of-marriage-i");
-</script>
         

@@ -64,7 +64,7 @@ for noun in nouns:
             with open("_posts/{}".format(file_name),'w') as f:
                 #value = item["content"][0]['value'].encode('utf-8')
                 f.write('''---
-layout: default
+layout: iframe
 title: >
   {}
 status: publish
@@ -74,18 +74,9 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "{}"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="{}">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{{site.baseurl}}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "{}");
-</script>
-        '''.format(title, time.year,time.month,time.day, link, link))
+        '''.format(title, time.year,time.month,time.day, link))
             #f.write(value)
 
     

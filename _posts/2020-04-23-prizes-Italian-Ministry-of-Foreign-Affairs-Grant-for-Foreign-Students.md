@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Italian Ministry of Foreign Affairs Grant for Foreign Students
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/prizes/italian-ministry-of-foreign-affairs-grant-for-foreign-students"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/prizes/italian-ministry-of-foreign-affairs-grant-for-foreign-students">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/prizes/italian-ministry-of-foreign-affairs-grant-for-foreign-students");
-</script>
         

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   International Macquarie University Research Excellence Scholarship (iMQRES) 2016–2020
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/prizes/international-macquarie-university-research-excellence-scholarshi-3"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/prizes/international-macquarie-university-research-excellence-scholarshi-3">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/prizes/international-macquarie-university-research-excellence-scholarshi-3");
-</script>
         

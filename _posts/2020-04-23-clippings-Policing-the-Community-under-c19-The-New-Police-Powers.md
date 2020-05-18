@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Policing the Community under c19. The New Police Powers
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/clippings/policing-the-community-under-c19-the-new-police-powers"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/clippings/policing-the-community-under-c19-the-new-police-powers">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/clippings/policing-the-community-under-c19-the-new-police-powers");
-</script>
         

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Macquarie University HDR Research Project Funding
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/prizes/macquarie-university-hdr-research-project-funding"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/prizes/macquarie-university-hdr-research-project-funding">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/prizes/macquarie-university-hdr-research-project-funding");
-</script>
         

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   SOCIETY IS A FAMILY: social exclusion and social dystopia in South Korean films
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/society-is-a-family-social-exclusion-and-social-dystopia-in-south"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/society-is-a-family-social-exclusion-and-social-dystopia-in-south">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/society-is-a-family-social-exclusion-and-social-dystopia-in-south");
-</script>
         

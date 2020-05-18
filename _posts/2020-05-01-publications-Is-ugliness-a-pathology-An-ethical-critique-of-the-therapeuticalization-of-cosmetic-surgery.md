@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Is ugliness a pathology? An ethical critique of the therapeuticalization of cosmetic surgery
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/is-ugliness-a-pathology-an-ethical-critique-of-the-therapeuticali"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/is-ugliness-a-pathology-an-ethical-critique-of-the-therapeuticali">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/is-ugliness-a-pathology-an-ethical-critique-of-the-therapeuticali");
-</script>
         

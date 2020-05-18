@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Vice-Chancellor’s Research Grant for Young Researchers at Doctoral Level
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/prizes/vice-chancellors-research-grant-for-young-researchers-at-doctoral"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/prizes/vice-chancellors-research-grant-for-young-researchers-at-doctoral">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/prizes/vice-chancellors-research-grant-for-young-researchers-at-doctoral");
-</script>
         

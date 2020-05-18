@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   "Unibo Action 2" Study Grant for International Students, University of Bologna (Italy)
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/prizes/unibo-action-2-study-grant-for-international-students-university-"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/prizes/unibo-action-2-study-grant-for-international-students-university-">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/prizes/unibo-action-2-study-grant-for-international-students-university-");
-</script>
         

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Experimenting with corruption - an analysis of the OECD Anti-Bribery Convention through the lens of experimentalism
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/experimenting-with-corruption-an-analysis-of-the-oecd-anti-briber"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/experimenting-with-corruption-an-analysis-of-the-oecd-anti-briber">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/experimenting-with-corruption-an-analysis-of-the-oecd-anti-briber");
-</script>
         

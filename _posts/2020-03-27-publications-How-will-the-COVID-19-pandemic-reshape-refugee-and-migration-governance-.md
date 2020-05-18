@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   How will the COVID-19 pandemic reshape refugee and migration governance?
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/how-will-the-covid-19-pandemic-reshape-refugee-and-migration-gove"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/how-will-the-covid-19-pandemic-reshape-refugee-and-migration-gove">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/how-will-the-covid-19-pandemic-reshape-refugee-and-migration-gove");
-</script>
         

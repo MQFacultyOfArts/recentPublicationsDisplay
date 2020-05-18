@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   Four types of gender bias affecting women surgeons and their cumulative impact
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/four-types-of-gender-bias-affecting-women-surgeons-and-their-cumu"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/four-types-of-gender-bias-affecting-women-surgeons-and-their-cumu">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/four-types-of-gender-bias-affecting-women-surgeons-and-their-cumu");
-</script>
         

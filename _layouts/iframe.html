@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div id="qrcode"></div>
+<div>
+<iframe src="{{page.iframe_src}}">
+</iframe>
+</div>
+
+<script type="text/javascript" src="{{"/js/qr/qrcode.js" | relative_url}}"></script>
+<script type="text/javascript">
+new QRCode(document.getElementById("qrcode"), "{{page.iframe_src}}");
+</script>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   A critical introduction to <i>The Nightingale</i>: gender, race and troubled histories on screen
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/a-critical-introduction-to-ithe-nightingalei-gender-race-and-trou"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/a-critical-introduction-to-ithe-nightingalei-gender-race-and-trou">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/a-critical-introduction-to-ithe-nightingalei-gender-race-and-trou");
-</script>
         

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   'From Where the Fine Warships Come': Democratic Athens at War
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/projects/from-where-the-fine-warships-come-democratic-athens-at-war"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/projects/from-where-the-fine-warships-come-democratic-athens-at-war">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/projects/from-where-the-fine-warships-come-democratic-athens-at-war");
-</script>
         

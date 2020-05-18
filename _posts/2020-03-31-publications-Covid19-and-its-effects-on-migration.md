@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: iframe
 title: >
   #Covid19 and its effects on migration
 status: publish
@@ -9,15 +9,6 @@ meta:
   _edit_last: "1"
 type: post
 tags:
+iframe_src: "https://researchers.mq.edu.au/en/publications/covid19-and-its-effects-on-migration"
 ---
-<div  id="qrcode"></div>
-<div>
-<iframe src="https://researchers.mq.edu.au/en/publications/covid19-and-its-effects-on-migration">
-</iframe>
-</div>
-
-<script type="text/javascript" src="{site.baseurl}/js/qr/qrcode.js"></script>
-<script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "https://researchers.mq.edu.au/en/publications/covid19-and-its-effects-on-migration");
-</script>
         
