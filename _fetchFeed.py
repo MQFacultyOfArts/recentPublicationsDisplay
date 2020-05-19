@@ -31,7 +31,7 @@ def strip_tags(html):
 shutil.rmtree('_posts', ignore_errors=True)
 os.mkdir('_posts')
 
-nouns = ["projects","prizes","publications"]
+nouns = ["projects","publications"]
 #nouns = ["clippings"]
 for noun in nouns:
     rss_base_url = "https://researchers.mq.edu.au/en/organisations/faculty-of-arts/{}/?ordering=publicationYearThenTitle&descending=true&format=rss&page={}"

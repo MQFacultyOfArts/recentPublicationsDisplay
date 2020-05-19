@@ -6,7 +6,7 @@
     <style>
     	body{  overflow:hidden;}
     	#qrcode { position:fixed;
-    		bottom:40%;
+    		bottom:0;
     		right:0px;
     		z-index:100;
     		border:20px white solid; }
@@ -24,12 +24,12 @@
 {% if page.previous.url %}		
 setTimeout(function() {
   window.location.href = "{{page.previous.url| absolute_url}}"
-}, 20000);
+}, 40000);
 {% else %}
 {% assign post = site.posts.first %}
 setTimeout(function() {
   window.location.href = "{{post.url| absolute_url}}"
-}, 20000);
+}, 40000);
 
 {%endif%}    
 
