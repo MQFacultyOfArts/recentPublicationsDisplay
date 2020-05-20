@@ -32,6 +32,9 @@ shutil.rmtree('_posts', ignore_errors=True)
 os.mkdir('_posts')
 
 nouns = ["projects","publications"]
+DAYS = 90
+
+
 #nouns = ["clippings"]
 for noun in nouns:
     rss_base_url = "https://researchers.mq.edu.au/en/organisations/faculty-of-arts/{}/?ordering=publicationYearThenTitle&descending=true&format=rss&page={}"
@@ -49,7 +52,7 @@ for noun in nouns:
             print(page, noun, time, feedintime.count(False))
             if time > datetime.datetime.now(tz=datetime.timezone.utc):
                 continue
-            elif time < datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(days=90):
+            elif time < datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(days=DAYS):
                 feedintime.append(False)
                 continue
             else:

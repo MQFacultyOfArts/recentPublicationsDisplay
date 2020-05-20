@@ -21,14 +21,18 @@
  			margin:none; padding:0; overflow:hidden; z-index:-999999}
 	</style>
 	<script>
+window.onerror = function() {
+    window.location.href = "{{site.url}}";
+}    
+
 {% if page.previous.url %}		
 setTimeout(function() {
-  window.location.href = "{{page.previous.url| absolute_url}}"
+  window.location.href = "{{page.previous.url| absolute_url}}";
 }, 15000);
 {% else %}
 {% assign post = site.posts.first %}
 setTimeout(function() {
-  window.location.href = "{{post.url| absolute_url}}"
+  window.location.href = "{{post.url| absolute_url}}";
 }, 15000);
 
 {%endif%}    
