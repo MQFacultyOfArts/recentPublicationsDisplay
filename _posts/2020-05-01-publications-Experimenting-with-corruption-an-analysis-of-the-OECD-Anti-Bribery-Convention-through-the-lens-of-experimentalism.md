@@ -1,7 +1,7 @@
 ---
 layout: iframe
 title: >
-  Experimenting with corruption - an analysis of the OECD Anti-Bribery Convention through the lens of experimentalism
+  Experimenting with corruption — an analysis of the OECD Anti-Bribery Convention through the lens of experimentalism
 status: publish
 published: true
 date: 2020-5-1 00:00:00

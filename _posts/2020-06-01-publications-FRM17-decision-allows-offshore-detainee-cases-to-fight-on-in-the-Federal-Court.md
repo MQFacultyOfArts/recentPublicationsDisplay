@@ -4,7 +4,7 @@ title: >
   FRM17 decision allows offshore detainee cases to fight on in the Federal Court
 status: publish
 published: true
-date: 2020-4-2 00:00:00
+date: 2020-6-1 00:00:00
 meta:
   _edit_last: "1"
 type: post
